@@ -1,0 +1,362 @@
+
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+html, body{
+  height: 100%;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+figure{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background-color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+  /* background-image: url(../img/fin.png); */
+  background-repeat: no-repeat;
+  background-position: top;
+}
+p{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container{
+  max-width: 1280px;
+  background-color: #35203b;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+:root{
+  --white-color: #fff;
+}
+.text-a{
+  font-family: 'Inter', sans-serif;
+  font-size: 32;
+}
+.text-i{
+  font-family: 'Inter', cursive;
+  font-size: 64;
+}
+
+.header {
+  min-height: 104px;
+}
+.menu__list-link {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+}
+.link1{
+  border-bottom: 0px solid white;
+}
+.footer__menu-list{
+  max-width: 230px;
+}
+.footer__menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__menu-title{
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.footer__menu-link{
+  font-size: 14px;
+}
+.footer__menu-item + .footer__menu-item{
+  padding-top: 25px;
+}
+.logosm{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.l2{
+  max-width: 170px;
+}
+.first{
+  font-family: 'Inter', cursive;
+  font-size: 24px;
+}
+.main{
+  flex-grow: 1;
+}
+.header__title {
+  padding-top: 44px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 52px;
+  background-color: #101010;
+}
+.menu__list {
+  display: flex;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  padding-right: 106px;
+  justify-content: center;
+  gap: 234px;
+  background-color: #1c1c1c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.top-list{
+  text-align: center;
+  font-size: 32px;
+  background-color: #f4f4f4;
+  font-weight: 300;
+  margin: 0px;
+  padding: 24px;
+}
+.middle-list{
+  text-align: center;
+  font-size: 32px;
+  background-color: #101010;
+  color: #f4f4f4;
+  font-weight: 300;
+  margin: 0px;
+  padding: 24px;
+}
+.top__link{
+  font-size: 20px;
+  padding: 10px;
+}
+.middle__nelink{
+  font-size: 20px;
+  padding: 10px;
+}
+.bottom__nelink{
+  font-size: 20px;
+  padding: 10px;
+}
+.title{
+  padding: 10px;
+}
+.footer__menu{
+  padding: 33px 0 33px;
+  color: #fff;
+  background-color: #101010;
+}
+.top__about-add{
+  padding: 10px;
+}
+.middle__about-add{
+  padding: 10px;
+}
+.bottom__about-add{
+  padding: 10px;
+}
+.list2{
+  text-align: center;
+  margin-right: -40px ;
+}
+.list3{
+  text-align: right;
+  max-width: 255px;
+}
+.about__p{
+  max-width: 1148px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  color: #F4F4F4;
+  font-weight: 300;
+  padding-left: 125px;
+}
+.about__us{
+  text-align: center;
+  background-color: #101010;
+}
+.f{
+  padding-top: 40px;
+}
+.se{
+  padding-bottom: 30px;
+}
+.sev{
+  padding-top: 49px;
+  padding-bottom: 68px;
+}
+.link10{
+  opacity: 0.5;
+}
+.basket__list{
+  display: flex;
+  background-color: #f4f4f4;
+  color: #101010;
+  padding-top: 71px;
+  padding-bottom: 71px;
+  margin: 0;
+  justify-content: space-evenly;
+}
+.basket__scrum{
+  font-size: 30px;
+}
+.basket__quatity{
+  font-size: 30px;
+  padding-bottom: 130px;
+  padding-top: 10px;
+  padding-left: 110px;
+}
+.basket__dop{
+  font-size: 24px;
+}
+.basket__dop-price{
+  font-size: 30px;
+  padding-top: 130px;
+  padding-left: 100px;
+}
+.basket__dop-buy{
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 152px;
+  padding-top: 10px;
+}
+.series__animal-list{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #101010;
+  text-align: center;
+  margin: 0;
+  background-color: #F4F4F4;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.series__spacer-list{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #101010;
+  text-align: center;
+  margin: 0;
+  background-color: #F4F4F4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.series__dragonl-list{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #101010;
+  text-align: center;
+  margin: 0;
+  background-color: #F4F4F4;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.series__name{
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.product__list{
+  display: flex;
+  background-color: #F4F4F4;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+.color-list{
+  display: flex;
+  background-color: #F4F4F4;
+  align-items: center;
+  gap: 10px;
+  padding-left: 34px;
+}
+.phone-list{
+  display: flex;
+  background-color: #F4F4F4;
+  justify-content: center;
+  margin: 0;
+}
+.pUP{
+  text-align: center;
+  background-color: #F4F4F4;
+  padding-left: 40px;
+  padding-top: 80px;
+}
+.pDOWN{
+  text-align: center;
+  background-color: #F4F4F4;
+  padding-left: 40px;
+  padding-bottom: 96px;
+}
+.product-phone{
+  font-size: 32px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.product-addtocart{
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 28px;
+  text-align: center;
+}
+.phone-list__center{
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.phone-list__right{
+  margin-top: 100px;
+}
+.phone-list__left{
+  margin-top: 100px;
+}
+.product_phone{
+  padding-top: 50px;
+}
+.tels{
+  display: flex;
+  height: 380px;
+  width: fit-content;
+  justify-content: center;
+}
+.tel-black{
+  width: 146px;
+}
+.tels-link{
+  /* display: grid;
+  width: fit-content; */
+  justify-self: center;
+}
+.top-title{
+  display: grid;
+}

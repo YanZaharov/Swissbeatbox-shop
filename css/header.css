@@ -1,0 +1,20 @@
+.header__title {
+  padding-top: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.menu__list {
+  display: flex;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  padding-right: 0px;
+  justify-content: center;
+  gap: 890px;
+  background-color: #1c1c1c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+}

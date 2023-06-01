@@ -1,0 +1,23 @@
+.basket__menu{
+  background-color: #f4f4f4;
+  padding-bottom: 180px;
+}
+.basket__top{
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Inter', sans-serif;
+  padding-top: 90px;
+}
+.basket__bottom{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-top: 28px;
+  border: black dashed;
+  border-radius: 50px;
+  padding-bottom: 28px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+}

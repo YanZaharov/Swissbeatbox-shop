@@ -1,0 +1,53 @@
+.series__animal-list {
+  display: flex;
+  gap: 31px;
+  justify-content: flex-start;
+  color: #101010;
+  text-align: center;
+  margin: 0;
+  background-color: #F4F4F4;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 155px;
+  padding-bottom: 11px;
+}
+.series__spacer-list {
+  display: flex;
+  gap: 31px;
+  justify-content: flex-start;
+  color: #101010;
+  text-align: center;
+  margin: 0;
+  background-color: #F4F4F4;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 155px;
+  padding-bottom: 51px;
+}
+.main-title {
+  background-color: #F4F4F4;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 169px;
+}
+.series__name {
+  font-family: 'Inder', sans-serif;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  font-weight: 400;
+  text-align: left;
+  font-size: 24px;
+  padding-left: 7px;
+}
+.series__name-bottom{
+  padding-top: 3px;
+  font-size: 16px;
+}
