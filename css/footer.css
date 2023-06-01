@@ -1,0 +1,9 @@
+.footer__menu {
+  padding: 33px 0 33px;
+  color: #bbbbbb;
+  background-color: #1c1c1c;
+  font-weight: 900;
+}
+.footer__menu-link_big{
+  font-size: 18px;
+}
