@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1280px) {
+.product__list {
+  display: flex;
+  background-color: #F4F4F4;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+}
+}
+@media only screen and (max-width: 1080px) {
+  .product-addtocart {
+    margin-bottom: 48px;
+}
+}
+@media only screen and (max-width: 700px) {
+  .product_photo {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .aboutproduct__hoodie{
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .text1 {
+    font-size: 36px;
+    text-align: center;
+}
+.text2 {
+  font-size: 20px;
+  padding-top: 0px;
+  text-align: center;
+}
+.text3 {
+  font-size: 34px;
+  text-align: center;
+}
+.text4 {
+  font-size: 30px;
+  text-align: center;
+}
+.text5 {
+  max-width: 70%;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+.product-addtocart {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 22px;
+  border: black dashed;
+  text-align: center;
+  border-radius: 50px;
+  padding-bottom: 22px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+}

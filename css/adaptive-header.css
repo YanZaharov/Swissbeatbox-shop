@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1280px) {
+  .logo{
+    width: 100%;
+  }
+  .menu__list {
+    gap: 70%;
+}
+.container{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 780px) {
+.main-title {
+  padding-left: 0px;
+  text-align: center;
+}
+.menu__list {
+  gap: 50%;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .menu__list {
+    gap: 30%;
+  }
+}
