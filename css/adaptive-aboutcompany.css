@@ -12,6 +12,9 @@
     margin: 0 auto;
     font-size: 18px;
 }
+.se{
+  font-size: 22px;
+}
 }
 @media only screen and (max-width: 700px) {
   .about__p {
@@ -20,6 +23,9 @@
     margin: 0 auto;
     font-size: 16px;
 }
+.se{
+  font-size: 18px;
+}
 }
 @media only screen and (max-width: 420px) {
   .about__p {
@@ -27,5 +33,8 @@
     padding-left: 25px;
     margin: 0 auto;
     font-size: 14px;
+}
+.se{
+  font-size: 16px;
 }
 }
