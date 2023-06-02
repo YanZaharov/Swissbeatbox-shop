@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1280px) {
+  .logo{
+    width: 100%;
+  }
+  .menu__list {
+    gap: 70%;
+}
+.container{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 780px) {
+  .footer__menu {
+    flex-wrap: wrap;
+}
+.main-title {
+  padding-left: 0px;
+  text-align: center;
+}
+.series__animal-list {
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  text-align: center;
+}
+.series__spacer-list {
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  text-align: center;
+}
+.series__name {
+  text-align: center;
+}
+.menu__list {
+  gap: 50%;
+}
+}
+
+@media only screen and (max-width: 490px) {
+  .footer__menu {
+    flex-wrap: wrap;
+    padding-right: 32px;
+  }
+  .list2{
+    text-align: right;
+  }
+  .list3 {
+    text-align: center;
+    padding-top: 19px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .footer__menu {
+    flex-wrap: wrap;
+    padding-right: 32px;
+  }
+  .list3 {
+    text-align: center;
+    padding-top: 19px;
+  }
+  .list2{
+    text-align: right;
+  }
+  .footer__menu-link {
+    font-size: 12px;
+}
+.footer__menu-link_big {
+  font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .pic{
+    width: 80%;
+  }
+  .menu__list {
+    gap: 30%;
+  }
+}
